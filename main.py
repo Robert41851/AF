@@ -32,7 +32,6 @@ Content-Type: text/plain; charset="UTF-8";
 {send}
 """
 letter = letter.encode("UTF-8")
-print(letter)
 login = os.getenv("LOGIN")
 password = os.getenv("PASSWORD")
 server = smtplib.SMTP_SSL('smtp.yandex.ru',465)
